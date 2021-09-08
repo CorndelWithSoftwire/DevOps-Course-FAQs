@@ -5,15 +5,27 @@ Are you seeing any of the below issues?
 ### I can't run the app
 
 <details><summary>Issues setting up Python?</summary>
-//TODO
+
+Try following the guide to installing Python on [the Python Intro repository](https://github.com/CorndelWithSoftwire/DevOps-Course-Python-Intro)
 </details>
 
 <details><summary>Issues setting up Poetry?</summary>
-//TODO
-</details>
 
-<details><summary>Issues setting up debugging?</summary>
-//TODO
+The course starter repo should contain advice on installing Poetry, or you can follow the [official Poetry docs](https://python-poetry.org/docs/#installation).
+This should install and configure Poetry - try closing down any terminals you have open, and when you open a fresh one the command `poetry --version` should print out a version number something like:
+```
+Poetry version 1.1.7
+```
+If it does, congratulations - it looks like Poetry is installed correctly! If you're still having issues, you might want to look at [the Poetry FAQs](Tools/poetry.md).
+
+If it states something like `poetry: command not found` then it looks like that hasn't quite installed correctly. The first thing we should do is check if the file appears to have downloaded correctly - it should have created a `.poetry` folder in your user area. E.g. on Windows, look at "C:\\Users\\\<YourName\>" and see if the `.poetry` folder exists (making sure you can see hidden folders!) - if it does click into it, then into the `bin` folder and check that a file exists there called `poetry`. On a Mac, follow the same process but starting in your user area (e.g. `/Users/\<YourName\>).
+
+If that file is missing, then it looks like the Poetry installation script didn't work as expected. You could try re-running that and seeing if there are any hints or errors in the output, or alternatively reach out to a tutor who will be able to help debug further.
+
+If the file is present, then it's probably just missing from your PATH environment variable - a user setting that helps the terminal know what programs are available to run. You'll want to add the "bin" folder to your path, e.g. "C:\\Users\\\<YourName\>\\.poetry\\bin" or "/Users/\<YourName\>/.poetry/bin" depending on whether you're on Windows/Mac respectively
+* On Windows, [see this guide for adding a folder to your PATH](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
+* On Mac, [see this guide for adding a folder to your PATH](https://wpbeaches.com/how-to-add-to-the-shell-path-in-macos-using-terminal/)
+
 </details>
 
 ### I can't get the index page to show items?
@@ -52,13 +64,46 @@ Don't forget we can use Jinja to access variables passed through by `render_temp
 ### I can't create new items?
 
 <details><summary>How do I add a form to the page?</summary>
-//TODO
-</details>
+The example form below submits the users first & last names:
+```html
+<form action="/route" method="POST">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+```
 
-<details><summary>My form isn't triggering my new route?</summary>
-//TODO
+Note that the form has:
+* An action - the route that this form is supposed to trigger
+* A method - the HTTP method that should be used. GET or POST are the only supported options
+* Inputs - in this case of type "text" to allow the user to enter text
+  * These each have an "id" (to identify them in the HTML) and a "name" (to identify the fields that are submitted)
+* Labels - these are text to describe what should be placed in a corresponding input - note that they are semantically linked with the "for" field to match an input's corresponding "id" field
+* A way to submit it - in this case an input of type "submit", but optionally a button of type "submit" would also work
+
+For further info, take a look at [W3Schools' page on forms](https://www.w3schools.com/html/html_forms.asp)
 </details>
 
 <details><summary>How do I use the data passed through from the form?</summary>
-//TODO
+If you import the `request` module from Flask, `request.form` will allow you to access a dictionary of values that were passed through in a form. You can [see the docs for that here](https://flask.palletsprojects.com/en/2.0.x/api/#flask.Request.form) or there's a simple example of using that below:
+
+```python
+from flask import Flask, request # other dependencies
+
+# define app, set up index etc.
+
+@app.route("/receive_form", methods=["POST"])
+def receive_form():
+    form_value = request.form["my-named-input"]
+    # Do something with that value
+```
+
+If you're having issues with that, it's worth checking:
+* Is that route being hit at all? You could try adding a breakpoint or a print statement to check if `receive_form` is being triggered. If not:
+  * Is the form's [action attribute](https://www.w3schools.com/tags/att_form_action.asp) pointing to the right route?
+  * Have you set the form's [method attribute](https://www.w3schools.com/tags/att_form_method.asp) to match the route?
+* If the route's hit but the value doesn't seem to be there, have you got a naming mismatch? E.g. if you print or inspect the `request.form` value - does it have anything in it?
+  * Note that you'll need to specify the [input's name attribute](https://www.w3schools.com/tags/att_input_name.asp)
 </details>
