@@ -6,7 +6,7 @@ Travis has its fair share of quirks. Here we provide some of the common tripping
 This is _probably_ caused by a mistake in your YAML. Visit your repository in Travis, select the "More Options" button and click the "Requests" option. This will list out the pipelines that Travis considered running, and why it did or didn't take action.
 * If you don't see any requests, you might want to check whether Travis is pointing at the same repository you have been pushing to. If you click the Github icon, does it take you to your repository? Can you see your latest changes?
 * If it records that a `.travis.yml` file wasn't found - did you push the file successfully? Was it named correctly?
-* If it records that it couldn't parse your file, then there's likely a mistake in your YAML. Take another look over the file - common sources of error are missing hyphens (noting the next entry in an array) or incorrect indenting.
+* If it records that it couldn't parse your file, then there's likely a mistake in your YAML. Take another look over the file - common sources of error are missing hyphens (denoting the next entry in an array) or incorrect indenting.
   * You can easily find lots of YAML linters only - try putting your config into one; does it provide any hints where an error might be?
 </details>
 
