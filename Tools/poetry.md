@@ -6,6 +6,7 @@ Poetry is a dependency management tool for Python - it is a great solution for i
 </details>
 
 <details><summary>My virtual environment seems to be in a bad state?</summary>
+
 Sometimes your virtual environment managed with Poetry can get itself into a funny state - the classic "turn it off & on again" approach is to clear out your existing virtual environment folder and try installing from scratch.
 
 Either:
