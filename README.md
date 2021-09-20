@@ -14,6 +14,9 @@ Modules:
 
 Tools:
 * [Python](Tools/python.md)
+* [VSCode](Tools/VSCode.md)
+* [Poetry](Tools/poetry.md)
+* [Aptem](Tools/aptem.md)
 * [Travis](Tools/travis.md)
 * [Gitpod](Tools/gitpod.md)
 
