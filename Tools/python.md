@@ -88,7 +88,7 @@ class Car(Vehicle):
 Then this would no longer be possible (as a bicycle does not have an engine).
 </details>
 
-<details><summary>
+<details markdown="1"><summary>
 
 What is the `super` keyword?
 </summary>
