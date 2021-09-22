@@ -4,12 +4,16 @@ Are you seeing any of the below issues?
 
 ### I can't run the app
 
-<details><summary>Issues setting up Python?</summary>
+<details markdown="1">
+<summary markdown="1">
+Issues setting up Python?
+</summary>
 
 Try following the guide to installing Python on [the Python Intro repository](https://github.com/CorndelWithSoftwire/DevOps-Course-Python-Intro)
 </details>
 
-<details><summary>Issues setting up Poetry?</summary>
+<details markdown="1"><summary markdown="1">Issues setting up Poetry?
+</summary>
 
 The course starter repo should contain advice on installing Poetry, or you can follow the [official Poetry docs](https://python-poetry.org/docs/#installation).
 This should install and configure Poetry - try closing down any terminals you have open, and when you open a fresh one the command `poetry --version` should print out a version number something like:
@@ -28,15 +32,18 @@ If the file is present, then it's probably just missing from your PATH environme
 
 </details>
 
-<details><summary>Issues with VSCode?</summary>
+<details markdown="1">
+<summary markdown="1">
+Issues with VSCode?
+</summary>
 
 See [our VSCode docs](Tools/VSCode.md) for more information regarding setting it up generally, or [watch our video](https://nextcloud.softwire.com/index.php/s/xDNY7TDe4wxMg9s) for more advice on setting up VSCode explicitly for the project exercise project.
 </details>
 
 ### I can't get the index page to show items?
 
-<details><summary>
-
+<details markdown="1">
+<summary markdown="1">
 How do I use `render_template`?
 </summary>
 
@@ -57,8 +64,8 @@ The value of the name passed in as part of the route will be available in the te
 Note that the key for that argument (in this case, `your_name`) can be (almost) anything you choose - it's just how you'll refer to that variable in the template. It's common to have it match the variable name being passed in (e.g. `render_template('hello.html', name=name)`).
 </details>
 
-<details><summary>
-
+<details markdown="1">
+<summary markdown="1">
 How do I import the existing `get_items` function?
 </summary>
 
@@ -68,7 +75,10 @@ If you then wanted to import another function from the same file, we could just 
 `from todo_app.data.session_items import get_items, another_function`
 </details>
 
-<details><summary>I have an empty template showing, how do I display the items?</summary>
+<details markdown="1">
+<summary markdown="1">
+I have an empty template showing, how do I display the items?
+</summary>
 
 You'll see a hint for where you might put that code in the index template. You're adding that code inside a `<uL>` tag - which represents an "unordered list" - a list of bullet points. [The W3Schools docs](https://www.w3schools.com/tags/tag_ul.asp) can tell us more, and show how we can add list items (`<li>`).
 
@@ -77,7 +87,10 @@ Don't forget we can use Jinja to access variables passed through by `render_temp
 
 ### I can't create new items?
 
-<details><summary>How do I add a form to the page?</summary>
+<details markdown="1">
+<summary markdown="1">
+How do I add a form to the page?
+</summary>
 
 The example form below submits the users first & last names:
 ```html
@@ -101,7 +114,10 @@ Note that the form has:
 For further info, take a look at [W3Schools' page on forms](https://www.w3schools.com/html/html_forms.asp)
 </details>
 
-<details><summary>How do I use the data passed through from the form?</summary>
+<details markdown="1">
+<summary markdown="1">
+How do I use the data passed through from the form?
+</summary>
 
 If you import the `request` module from Flask, `request.form` will allow you to access a dictionary of values that were passed through in a form. You can [see the docs for that here](https://flask.palletsprojects.com/en/2.0.x/api/#flask.Request.form) or there's a simple example of using that below:
 

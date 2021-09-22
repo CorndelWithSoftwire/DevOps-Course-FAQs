@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+summary {
+    display: list-item;
+    padding: 1rem;
+    > p {
+        display: inline;
+    }
+}
