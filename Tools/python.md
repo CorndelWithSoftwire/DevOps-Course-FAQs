@@ -4,7 +4,10 @@ Python is a powerful language; but with that power comes complexity! Below are j
 
 ### What does this thing mean?
 
-<details><summary>Why do some functions put * before arguments?</summary>
+<details markdown="1">
+<summary markdown="1">
+Why do some functions put `*` before arguments?
+</summary>
 
 The asterisks refer to a variable number of arguments; it is possible for functions to support an arbitrary list of arguments:
 
@@ -44,7 +47,10 @@ There are (at least) 2 answers to this:
 2. This enables the construction of wrapper functions/decorators that can handle all possible combinations of function arguments
 </details>
 
-<details><summary>Can I inherit from multiple base classes?</summary>
+<details markdown="1">
+<summary markdown="1">
+  Can I inherit from multiple base classes?
+</summary>
 
 It is possible for a Python class to inherit from multiple base classes:
 
@@ -88,14 +94,12 @@ class Car(Vehicle):
 Then this would no longer be possible (as a bicycle does not have an engine).
 </details>
 
-<details markdown="1"><summary markdown="1">
-
-What is the `super` keyword?
+<details markdown="1"><summary markdown="1">What is the `super` keyword?
 </summary>
 
 When inheriting from a base class, you'll often end up reusing the same method names as the base class, the most common example being the `__init__` function.
 
-- When this happens, how do you call the base class method from child class?
+* When this happens, how do you call the base class method from child class?
 
 Python solves this problem by providing the `super()` method, which allows access to any of the base classes methods:
 

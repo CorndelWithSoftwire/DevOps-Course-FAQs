@@ -1,6 +1,9 @@
 # Module 2 Project Exercise Hints
 
-<details><summary>How can I get all of my cards with a single request to Trello?</summary>
+<details markdown="1">
+<summary markdown="1">
+How can I get all of my cards with a single request to Trello?
+</summary>
 
 Take a look at the docs for the [Get Lists on Board endpoint in Trello. ](https://developer.atlassian.com/cloud/trello/rest/api-group-boards/#api-boards-id-lists-get) - are there any helpful looking query parameters?
 

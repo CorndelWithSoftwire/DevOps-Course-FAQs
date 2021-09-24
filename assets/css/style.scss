@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+summary {
+    display: list-item;
+    padding: 1rem;
+    > p {
+        display: inline;
+    }
+}
+
+.nav-bar{
+    text-align: left;
+}
+
+.home-icon {
+    // Switch the icon to white
+    filter: invert(1);
+}
