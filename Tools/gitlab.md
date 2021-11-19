@@ -27,7 +27,7 @@ Now, create a new repository on GitLab.com:
 
 ![GitLab create a blank project screen](../assets/images/gitlab_new_project.png)
 
-Follow the "Command line instructions" on the GitLab page for your new project to push your existing repository, the commands should look something like:
+Now run the following commands to push your existing repository to GitLab:
 
 ```sh
 git remote remove origin # Unlink the original GitHub repository
