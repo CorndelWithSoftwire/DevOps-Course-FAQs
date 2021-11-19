@@ -11,7 +11,8 @@ Modules:
   * [Project Exercise](Modules/Module_1/Project_Exercise/hints.md)
 * Module 2
   * [Project Exercise](Modules/Module_2/Project_Exercise/hints.md)
-
+* Module 9
+  * [Project Exercise](Modules/Module_9/Project_Exercise/hints.md)
 Tools:
 * [Python](Tools/python.md)
 * [VSCode](Tools/VSCode.md)
