@@ -2,17 +2,17 @@
 
 Are you seeing any of the below issues?
 
-### I can't run the app
+### I can't connect to the DB
 
 <details markdown="1">
 <summary markdown="1">
-On a Mac and having problems connecting to your database?
+On a Mac and getting an error containing "SSL: CERTIFICATE_VERIFY_FAILED"?
 </summary>
 
-If you are getting an error containing `SSL: CERTIFICATE_VERIFY_FAILED`, then here's the solution.
+Here's the solution:
 
 - Install the "certifi" package: `poetry add certifi` on command line
-- Import it.
+- Import it in your Python file: `import certifi`
 - When you create your MongoClient, point it to certifi: `client = MongoClient(<connection_string>, tlsCAFile=certifi.where())`
 
 <details markdown="1">
