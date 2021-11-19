@@ -6,7 +6,7 @@ Are you seeing any of the below issues?
 
 <details markdown="1">
 <summary markdown="1">
-On a Mac and getting an error containing "SSL: CERTIFICATE_VERIFY_FAILED"?
+Are you getting an error containing "SSL: CERTIFICATE_VERIFY_FAILED"?
 </summary>
 
 Here's the solution:
