@@ -13,12 +13,14 @@ Modules:
   * [Project Exercise](Modules/Module_2/Project_Exercise/hints.md)
 * Module 9
   * [Project Exercise](Modules/Module_9/Project_Exercise/hints.md)
+
 Tools:
-* [Python](Tools/python.md)
-* [VSCode](Tools/VSCode.md)
-* [Poetry](Tools/poetry.md)
 * [Aptem](Tools/aptem.md)
-* [Travis](Tools/travis.md)
+* [Gitlab](Tools/gitlab.md)
 * [Gitpod](Tools/gitpod.md)
+* [Poetry](Tools/poetry.md)
+* [Python](Tools/python.md)
+* [Travis](Tools/travis.md)
+* [VSCode](Tools/VSCode.md)
 
 
