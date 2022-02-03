@@ -16,8 +16,8 @@ Please add the following Github users as collaborators:
 * Jack Mead (`JackMead`)
 * Ben Ramchandani (`BenRamchandani`)
 * Josh Powell (`JoshAdamPowell`)
-* CorndelExcellence
-* CorndelWithSoftwireDevOps
+* `CorndelExcellence`
+* `CorndelWithSoftwireDevOps`
 </details>
 
 ### I can't run the app
