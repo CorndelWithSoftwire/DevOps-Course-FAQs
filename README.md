@@ -23,4 +23,4 @@ Tools:
 * [Travis](Tools/travis.md)
 * [VSCode](Tools/VSCode.md)
 
-
+[Course Glossary](glossary.md)
