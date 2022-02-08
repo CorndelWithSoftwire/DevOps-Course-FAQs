@@ -91,7 +91,7 @@ _Module 2_
 _Module 6_
 
 **MTTR** - "Mean Time To Recovery", how long it takes to fix critical system failures.
-DevOps principals encourage aiming to reduce MTTR over increasing MTBF as a better route to moving quickly with low downtime.  
+DevOps principles encourage aiming to reduce MTTR over increasing MTBF as a better route to moving quickly with low downtime.  
 _Module 6_
 
 **Penetration testing** - AKA Pen testing. Evaluating the security of a system by attempting to breach it.  
