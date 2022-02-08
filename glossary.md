@@ -6,26 +6,28 @@ These are technical terms that appear in the course content and assessment crite
 
 This mostly exists as a reference, but is also worth looking through as part of your preparation for the End Point Assessment as the assessor may use these terms and will expect you to understand them.
 
+If you would like more context, each definition has the relevant module _in italics_ so you can review the reading material.
+
 **Acceptance Criteria** - A set of requirements that must be met to mark a user story as complete. Often abbreviated to "AC".  
 _Module 6_
 
 **Accessibility** - Whether a system is accessible (easy to use) to all users. For example, ensuring your software can be used with a screen reader.  
 _Module 6_
 
-**ACL** - "Access Control List", a list of users and the actions they are permitted to take as a way of implementing Authorisation.
+**ACL** - "Access Control List", a list of users and the actions they are permitted to take, as a way of implementing authorisation.
 An evolution of this is RBAC, Role Based Access Control, where users have roles and roles have permissions.  
 _Module 10_
 
-**Affinity mapping** - Organizing related facts/points into distinct clusters. Can be used for sorting through user feedback.  
+**Affinity mapping** - Visually organising related facts/points into distinct clusters, for example with post-it notes on a whiteboard. Can be used for sorting through user feedback.  
 _Module 6_
 
-**API** - "Application Programming Interface", a defined interface between two computer systems. We use a few web APIs using JSON over HTTP during workshops and the project exercise.  
+**API** - "Application Programming Interface", a defined interface between two computer systems. We use several web APIs utilising JSON over HTTP during workshops and the project exercise.  
 _Module 2_
 
 **Authentication** - The process of verifying the identity of a user. Sometimes referred to as AuthN.  
 _Module 10_
 
-**Authorisation** - Determining what resources a user has access to. Sometimes referred to as AuthZ.  
+**Authorisation** - The process of determining what resources a user has access to. Sometimes referred to as AuthZ.  
 _Module 10_
 
 **Blameless culture** - A workplace culture that encourages looking for potential system improvements after incidents occur rather than assigning blame to individuals.
@@ -43,7 +45,7 @@ _Module 6_
 _Module 1_
 
 **Continuous Integration/CI** - The practice of merging all developers' working copies to a shared main branch regularly.
-A Continuous Integration pipeline assists with this by checking the state of repository branches, that might include running tests, static analysis tools and building the application.  
+A Continuous Integration pipeline assists with this by checking the state of repository branches; this might include running tests, static analysis tools, building or packaging the application.  
 _Module 7_
 
 **Continuous Delivery/CD** - The ability to deploy software at any time using an automated deployment pipeline.
@@ -60,20 +62,21 @@ _Module 6_
 _Module 10_
 
 **Feature toggle** - A flag used to alter the behaviour of a system, for example to turn a new feature on and off.
-Using feature toggles allows short lived branches to be used for large features that need to be turned on all at once.  
+Using feature toggles allows large features to be implemented in small steps with short-lived branches, even if the feature needs to be turned on all at once in production.  
 _Module 2_
 
 **Functional/non-functional requirements** - Functional requirements pertain to features of an application.
 Non-functional requirements (NFRs) describe other attributes of a system, such as performance, accessibility and security.
-NFRs are often not explicitly written down on tickets, but are nonetheless critical to building a working application.  
+NFRs are often not explicitly written down on tickets, but are nonetheless critical to building a working application.
+[More examples of non-functional requirements](https://www.perforce.com/blog/alm/what-are-non-functional-requirements-examples)  
 _Module 6_
 
 **IaC** - Infrastructure as Code, managing the provisioning of Cloud infrastructure as code rather than through manual processes.
 Examples of Infrastructure as Code tools are Terraform, Pulumi, ARM templates and CloudFormation.  
 _Module 12_
 
-**Immutable Infrastructure** - Treating servers as immutable, that is they are only created and destroyed, never updated in place.
-This ensures your servers are recycled with each release, which makes it easier to know what state they are in and can allow for easier rollbacks if you leave the old servers up until each release is complete.  
+**Immutable Infrastructure** - Treating servers as immutable, that is, they are only created and destroyed, never updated in place.
+This ensures your servers are recycled with each release, which makes it easier to know what state they are in, and can allow for easier rollbacks if you leave the old servers up until each release is complete.  
 _Module 5_
 
 **Impact mapping** - A diagram connecting business goals to deliverable tasks, see <https://www.impactmapping.org/drawing.html>.  
@@ -107,7 +110,7 @@ _Module 5_
 _Module 7_
 
 **Post-Mortem** - A review session after an incident to determine what went wrong and how to prevent a repeat.
-Sometimes called a retro or retrospective.  
+In some teams an informal post-mortem might be performed as part of a retro or other meeting rather than as a separate event.  
 _Module 6_
 
 **Refactoring** - Improving the layout of code without changing behaviour.  
@@ -132,13 +135,13 @@ A few types of test double are (these terms are often used interchangeably in pr
 
 _Module 3_
 
-**TDD** - "Test Driven Development", the practice of writing failing tests before writing code.  
+**TDD** - "Test Driven Development", the practice of writing failing tests before writing code to make them pass.  
 _Module 3_
 
 **Test Pyramid** - A diagram showing the idea of having fewer higher level end-to-end tests built on many lower level unit tests.  
 _Module 3_
 
-**UAT** - "User Agent Testing" manual testing performed by the end user to determine whether a system satisfies the requirements. Also known as Acceptance Testing.  
+**UAT** - "User Acceptance Testing", manual testing performed by an end user to determine whether a system satisfies the requirements.  
 _Module 3_
 
 **User story** - A translation of user needs into something a developer can act on, often in the format "_As a \<role or persona>, I can \<functionality> so that \<reason>_"  
