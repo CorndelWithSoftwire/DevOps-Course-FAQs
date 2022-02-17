@@ -23,4 +23,7 @@ Tools:
 * [Travis](Tools/travis.md)
 * [VSCode](Tools/VSCode.md)
 
+End Point Assessment:
+* [Professional Discussion](EPA/professional_discussion.md)
+
 [Course Glossary](glossary.md)
