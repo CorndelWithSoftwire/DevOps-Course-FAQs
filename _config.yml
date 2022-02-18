@@ -2,3 +2,7 @@ theme: jekyll-theme-cayman
 title: DevOps Course FAQs
 description: FAQs for various aspects of your DevOps Course
 markdown: kramdown
+repository: CorndelWithSoftwire/DevOps-Course-FAQs
+plugins:
+  - "jekyll-github-metadata"
+github: [metadata]
