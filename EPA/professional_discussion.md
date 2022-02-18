@@ -105,7 +105,7 @@ Pass Criteria:
 * Explains how they collaborate on code through pair/mob commits.
 
 Example Questions:
-* Do you ever pair program?
+* Do you ever pair program? Why/why not?
 * Do you give or receive code reviews?
 
 ### Communicating and Knowledge Sharing
@@ -115,4 +115,6 @@ Pass Criteria:
   * worked collaboratively to share knowledge through, for example, blog posts and pairing on tasks.
   
 Example Questions:
-* TODO
+* How does you ensure knowledge is shared throughout your team?
+* How does your team communicate?
+* Tell me about a time you've had to communicate effectively with non-technical stakeholders?
