@@ -1,4 +1,4 @@
-FROM ubuntu as custom
+FROM ubuntu
 
 RUN apt-get update && apt-get install ruby-full build-essential -y
 RUN gem install jekyll bundler
