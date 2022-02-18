@@ -38,6 +38,7 @@ Example questions:
 * What are some of the risks of DevOps? Can you do DevOps wrong?
 * What practices does your team have in place to prevent siloing of knowledge?
 * Who's in charge of DevOps structure in your organisation?
+* What are the risks of CI/CD pipelines?
 
 ### Data Ethics
 Pass Criteria:
@@ -98,6 +99,7 @@ Example Questions:
 * How do you keep up to date with new tools & technologies?
 * What other certificates or qualifications would benefit you?
 * How do you balance time between learning and work priorities?
+* How has your learning benefited you and your team?
 
 ### Peer review
 Pass Criteria:
