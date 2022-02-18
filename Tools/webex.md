@@ -19,3 +19,11 @@ This is usually because, for whatever reason, the audio-conference attached to t
 
 If you're not the presenter, you can usually claim that role from the current presenter in order to help someone else to achieve this.
 </details>
+
+<details markdown="1">
+<summary markdown="1">
+I've raised my hand - is anyone coming?
+</summary>
+
+A trainer should have been notified and will check in on you when they have an opportunity, but at times WebEx does fail to notify us - if you've been waiting more than a few minutes (or even if you haven't!) then feel free to reach out via Slack/Teams or email as well. Note that the chat is also lost when switching between rooms, so Slack/Teams/emails might be a better place for persistent conversations.
+</details>
