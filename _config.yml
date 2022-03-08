@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: DevOps Course FAQs
 description: FAQs for various aspects of your DevOps Course
+markdown: kramdown

@@ -24,4 +24,7 @@ Tools:
 * [VSCode](Tools/VSCode.md)
 * [WebEx Training](Tools/webex.md)
 
+End Point Assessment:
+* [Professional Discussion](EPA/professional_discussion.md)
+
 [Course Glossary](glossary.md)
