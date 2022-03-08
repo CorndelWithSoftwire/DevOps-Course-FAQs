@@ -6,6 +6,8 @@
 ## Summary
 The Professional Discussion is a one-hour interview with an independent assessor who will ask pre-prepared open questions to test your understanding of the criteria below. It is designed to give you the opportunity to demonstrate knowledge that is difficult to cover or to demonstrate in your project.
 
+An additional breakdown of the KSBs, criteria, and possible questions is available [in this Google Doc](https://docs.google.com/spreadsheets/d/1V_reG7kPau9D9__qQlHHR9rkl-IxekjxkEgIGt_6tHE/edit?usp=sharing).
+
 ## Hints
 * Remember that the assessor only knows what you tell them - so if there's something you want to tell them about, do!
 * You are welcome to have written notes to help prompt you; if you find some questions tough, or have particular stories you want to remember, then write them down beforehand.
@@ -38,7 +40,6 @@ Example questions:
 * What are some of the risks of DevOps? Can you do DevOps wrong?
 * What practices does your team have in place to prevent siloing of knowledge?
 * Who's in charge of DevOps structure in your organisation?
-* What are the risks of CI/CD pipelines?
 
 ### Data Ethics
 Pass Criteria:
@@ -53,7 +54,7 @@ Pass Criteria:
 * Identifies different problem solving techniques and evaluates how they use modelling approaches that are best suited to each technique in order to gain consensus as a team.
 
 Distinction Criteria:
-* Describes how they facilitated an incident post- mortem/lessons learned session. 
+* Describes how they facilitated an incident post-mortem/lessons learned session. 
 * Explains the root cause analysis process. Gains consensus on an improvement plan, including accountabilities and the  implementation timeline.
 
 Example Questions:
@@ -88,7 +89,7 @@ Example Questions:
 
 ### Continuous Learning & Development
 Pass Criteria:
-* Explains the CPD undertaken by themselves in order to keep up with cutting edge technologies and maintain appropriate certifications.
+* Explains the CPD (Continuing Professional Development) undertaken by themselves in order to keep up with cutting edge technologies and maintain appropriate certifications.
 * Explains how they invest in others continuous learning and activities and the impact this has on their own development.
 
 Distinction Criteria:
@@ -119,4 +120,4 @@ Pass Criteria:
 Example Questions:
 * How does you ensure knowledge is shared throughout your team?
 * How does your team communicate?
-* Tell me about a time you've had to communicate effectively with non-technical stakeholders?
+* Tell me about a time you've had to communicate effectively with non-technical stakeholders
