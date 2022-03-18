@@ -26,5 +26,6 @@ Tools:
 
 End Point Assessment:
 * [Professional Discussion](EPA/professional_discussion.md)
+* [Work-based project](EPA/project.md)
 
 [Course Glossary](glossary.md)
