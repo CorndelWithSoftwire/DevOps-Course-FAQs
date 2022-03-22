@@ -15,6 +15,7 @@ In particular, keep notes of:
 * What you’ve worked on
 * Roughly how long you’ve spent on-project each week
 * How you have demonstrated each KSB + assessment criteria, and which ones you still need to demonstrate
+  * You could do this by ticking off the KSBs on your project plan, or filling in the declaration form as you go
 
 Your Professional Discussion interview will be scheduled for approximately half way through your project, BCS will send the invitation directly.
 </details>
