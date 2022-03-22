@@ -57,7 +57,7 @@ Please contact the trainers or your Skills Coach to discuss requesting an extens
 
 If you have any other questions please contact us through the usual channels:
 
-* [Email the trainers](DevOpsDelivery@corndel.com) or your Skills Coach
+* [Email the trainers](mailto:DevOpsDelivery@corndel.com) or your Skills Coach
 * Contact the trainers on Slack
 * Book a support call with any of the trainers (using the support-call-links channel on Slack), or email us with your availability if you would like a longer call
 
