@@ -77,7 +77,7 @@ Your test cases might fail because the integration test needs to load environmen
 
 To provide the file to "docker run", use the `--env-file` option. You have to provide the filename, e.g. `--env-file .env.test`. Remember that "docker run" options must come before the image name! Anything after the image name is the contianer's CMD.
 
-<details><summary>Is your test failing to load .env.test?</summary>
+<details markdown="1"><summary>Is your test failing to load .env.test?</summary>
 On some machines, you may find that pytest is unable to use the load_dotenv function inside Docker. Work around that fact by handing the exception and passing in the .env.test file in your "docker run" command instead.
 
 ```python
