@@ -17,7 +17,7 @@ sudo yum install libffi-devel bzip2-devel wget openssl11-devel -y
 
 ### 2. Download, unzip, cd
 ```sh
-wget https://www.python.org/ftp/python/3.10.0/Python-3.10.2.tgz
+wget https://www.python.org/ftp/python/3.10.2/Python-3.10.2.tgz
 tar -xf Python-3.10.2.tgz
 cd Python-3.10.2/
 ```
