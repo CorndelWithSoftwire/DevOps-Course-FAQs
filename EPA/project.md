@@ -30,7 +30,7 @@ Your work based project must have real business value, so it will also be affect
 When you fill in the declaration form at the end you will submit an updated KSB mapping where you can detail any differences from your original project plan.
 
 If you're not sure whether you will still be able to fulfil all the KSBs/criteria, or you are now planning to demonstrate the KSBs/criteria in a significantly different way, then please get in contact with the trainers.
-We can assist you in finding alternative paths to demonstrating the KSBs/criteria, and submit an updated KSB mapping for BCS to review if appropriate.
+We can assist you in finding alternative paths to demonstrating the KSBs/criteria.
 </details>
 
 <details markdown="1">
