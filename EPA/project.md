@@ -6,6 +6,30 @@ This compliments the "EPA Submission Pack" which you should have received when y
 
 <details markdown="1">
 <summary markdown="1">
+What are the EPA timelines?
+</summary>
+
+Before your project starts the timelines are somewhat flexible so if you have concerns do speak to a trainer but these typically look like:
+* With assistance from the preparation materials and work in Module 15, you will put together a draft project plan & submit that via Aptem by the end of Module 15
+* With feedback from the trainers we will refine that plan so that it is ready to submit by the end of Module 16, along with two forms signed by yourself, by us, and by your manager.
+* Your paperwork is then submitted when ready and typically your project will start three weeks later
+  * BCS will confirm once you're ready to start, but often don't do so until the day the project is scheduled, so don't worry if you haven't heard in advance
+
+The EPA window itself then covers a period of 16 weeks. This starts with a core 12 weeks for you to implement the project:
+* Approximately 4 weeks into your project, BCS should schedule your Professional Discussion
+  * At this point we'll also offer to coordinate a 1-1 preparation session
+  * The assessment itself then typically takes place around the 6th week of your project
+  * If you pass this discussion, BCS will _not_ give us any confirmation, you'll only receive feedback and a grade after completing the full Practical Assessment. If you were to fail this assessment, BCS would let us know so that we can organise a re-sit, so consider no news is good news at this stage!
+* Approximately 8 weeks into your project we'll organise a review with you to see how things are going and provide any advice for where you might want to focus effort
+
+You then have one additional week for you to gather & submit your evidence & presentation. Once that has been submitted, BCS will look to book in your Practical Assessment slot. The assessment itself typically takes place in week 15 or 16 to allow the assessor at least a week to familiarise themselves with your evidence.
+
+After you've taken the Practical Assessment, BCS will usually provide feedback including your grade after approximately a week, so we'll be in touch to let you know how it went!
+
+</details>
+
+<details markdown="1">
+<summary markdown="1">
 Is there anything else I should do while I'm working on the project?
 </summary>
 
