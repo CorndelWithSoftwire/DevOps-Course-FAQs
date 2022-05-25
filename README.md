@@ -12,6 +12,7 @@ Modules:
 * Module 2
   * [Project Exercise hints](Modules/Module_2/Project_Exercise/hints.md)
 * Module 3
+  * [Project Exercise hints](Modules/Module_3/Project_Exercise/hints.md)
   * [Project Exercise code samples](Modules/Module_3/Project_Exercise/code_samples.md)
 * Module 4
   * [Project Exercise hints](Modules/Module_4/Project_Exercise/hints.md)
