@@ -13,10 +13,10 @@ You should either read the values during `create_app`, or only read the environm
 
 <details markdown="1">
 <summary markdown="1">
-I'm getting an import error
+I'm getting an import error or "Starting path not found" error
 </summary>
 
-Your tests need to be recognised as a python package; you should add an `__init__.py` file to your test directories in order to import code from within the `todo_app` folder.
+Your tests folder needs to be recognised as a Python package: add an empty `__init__.py` file to any test directories.
 
 </details>
 
@@ -31,11 +31,25 @@ Either import the whole module instead (use `import requests` in trello_items.py
 
 </details>
 
+
+<details markdown="1">
+<summary markdown="1">
+My stub function is giving a TypeError about the arguments.
+</summary>
+
+The exact usage of your "stub" function depends on how your application code is trying to use `requests`. 
+
+If your application has a line of code like `requests.get(my_url, headers=my_headers)`, then it must be valid to call `stub(my_url, headers=my_headers)`. Check that your definition of `stub` matches its usage. 
+
+</details>
+
 <details markdown="1">
 <summary markdown="1">
 My selenium test is failing
 </summary>
 
-If your app depends on environment variables for each list ID, then your selenium test will also need to override those variables with the IDs for the temporary test board's lists.
+* If your app depends on environment variables for each list ID, then your selenium test will also need to override those variables with the IDs for the temporary test board's lists.
+
+* Check that your app is using environment variables correctly (not too early and no IDs are hardcoded strings).
 
 </details>
