@@ -56,7 +56,7 @@ def stub(url, params={}):
         }]
         return StubResponse(fake_response_data)
 
-    raise Exception(f'Integration test stub no mock for url "{url}"')
+    raise Exception(f'Integration test did not expect URL "{url}"')
 
 
 def test_index_page(monkeypatch, client):
