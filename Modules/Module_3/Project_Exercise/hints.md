@@ -7,6 +7,7 @@ Why isn't my test picking up environment variables?
 
 For your app to use environment variables from .env.test, make sure you are accessing them AFTER the test has a chance to read the variables out of .env.test.
 If your application code defines `your_constant = os.getenv('YOUR_ENV_VAR')` outside of any function, it will only evaluate **once**, when the file is first imported (before your test has set up the environment).
+
 You should either read the values during `create_app`, or only read the environment variables right before you need them.
 
 </details>
