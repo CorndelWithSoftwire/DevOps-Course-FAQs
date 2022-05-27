@@ -14,7 +14,16 @@ You should either read the values during `create_app`, or only read the environm
 
 <details markdown="1">
 <summary markdown="1">
-I'm getting an import error or "Starting path not found" error
+Why do my tests pass in VS Code's test runner, but not when running "pytest" in a terminal?
+</summary>
+
+VS Code actually reads your .env file automatically, so you may be relying on that fact. Check that you are loading environment variables during the test (fixture) and that your code accesses the environment variables afterwards. See the above question and answer.
+
+</details>
+
+<details markdown="1">
+<summary markdown="1">
+Why am I getting an import error or "Starting path not found" error?
 </summary>
 
 Your tests folder needs to be recognised as a Python package: add an empty `__init__.py` file to any test directories.
@@ -35,7 +44,7 @@ Either import the whole module instead (use `import requests` in trello_items.py
 
 <details markdown="1">
 <summary markdown="1">
-My stub function is giving a TypeError about the arguments.
+Why is my stub function giving me a TypeError about the arguments?
 </summary>
 
 The exact usage of your "stub" function depends on how your application code is trying to use `requests`. 
@@ -46,7 +55,7 @@ If your application has a line of code like `requests.get(my_url, headers=my_hea
 
 <details markdown="1">
 <summary markdown="1">
-My selenium test is failing
+Why is my selenium test is failing?
 </summary>
 
 * If your app depends on environment variables for each list ID, then your selenium test will also need to override those variables with the IDs for the temporary test board's lists.
