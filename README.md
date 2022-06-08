@@ -20,6 +20,8 @@ Modules:
   * [Testing in Docker](Modules/Module_5/Project_Exercise/testing_in_docker.md)
 * Module 9
   * [Project Exercise hints](Modules/Module_9/Project_Exercise/hints.md)
+* Module 11
+  * [Project Exercise hints](Modules/Module_11/Project_Exercise/hints.md)
 * Module 12
   * [Project Exercise code samples](Modules/Module_12/Project_Exercise/code_samples.md)
 
