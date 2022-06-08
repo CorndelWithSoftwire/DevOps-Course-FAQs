@@ -17,7 +17,10 @@ Modules:
 * Module 4
   * [Project Exercise hints](Modules/Module_4/Project_Exercise/hints.md)
 * Module 5
+  * [Project Exercise hints](Modules/Module_5/Project_Exercise/hints.md)
   * [Testing in Docker](Modules/Module_5/Project_Exercise/testing_in_docker.md)
+* Module 8
+  * [Project Exercise hints](Modules/Module_8/Project_Exercise/hints.md)
 * Module 9
   * [Project Exercise hints](Modules/Module_9/Project_Exercise/hints.md)
 * Module 12
