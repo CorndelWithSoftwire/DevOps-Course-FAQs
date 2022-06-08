@@ -8,15 +8,23 @@ This documentation is living - it will need to grow as we and you learn new thin
 
 Modules:
 * Module 1
-  * [Project Exercise](Modules/Module_1/Project_Exercise/hints.md)
+  * [Project Exercise hints](Modules/Module_1/Project_Exercise/hints.md)
 * Module 2
-  * [Project Exercise](Modules/Module_2/Project_Exercise/hints.md)
+  * [Project Exercise hints](Modules/Module_2/Project_Exercise/hints.md)
+* Module 3
+  * [Project Exercise hints](Modules/Module_3/Project_Exercise/hints.md)
+  * [Project Exercise code samples](Modules/Module_3/Project_Exercise/code_samples.md)
+* Module 4
+  * [Project Exercise hints](Modules/Module_4/Project_Exercise/hints.md)
 * Module 5
-  * [Project Exercise](Modules/Module_5/Project_Exercise/hints.md)
+  * [Project Exercise hints](Modules/Module_5/Project_Exercise/hints.md)
+  * [Testing in Docker](Modules/Module_5/Project_Exercise/testing_in_docker.md)
 * Module 8
-  * [Project Exercise](Modules/Module_8/Project_Exercise/hints.md)
+  * [Project Exercise hints](Modules/Module_8/Project_Exercise/hints.md)
 * Module 9
-  * [Project Exercise](Modules/Module_9/Project_Exercise/hints.md)
+  * [Project Exercise hints](Modules/Module_9/Project_Exercise/hints.md)
+* Module 12
+  * [Project Exercise code samples](Modules/Module_12/Project_Exercise/code_samples.md)
 
 Tools:
 * [Aptem](Tools/aptem.md)
@@ -30,5 +38,6 @@ Tools:
 
 End Point Assessment:
 * [Professional Discussion](EPA/professional_discussion.md)
+* [Work-based project](EPA/project.md)
 
 [Course Glossary](glossary.md)
