@@ -21,7 +21,7 @@ If you've set up your App Service but you just see an error page when you hit it
 * Are there any helpful logs for the app?
   * Again in the Azure Portal, take a look in the "Log Stream" page (*not* the "Logs" page) of the Monitoring section; you may need to be patient or hit your app a few times if the logs don't initially load, but if the app is erroring then you should see issues here.
 * Check that your environment variables look correct; the "Configuration" page for your app should contain all of the necessary environment variables that you need to set in your .env file locally
-* If you don't see any of the above, it's worth checking if you're looking at the right place! Does the URL your currently at match the URL that you app service should be hosted at? If not, take a look at the hint for errors _after_ GitHub redirects have happened
+* If you don't see any of the above, it's worth checking if you're looking at the right place! Does the URL you're currently at match the URL that you app service should be hosted at? If not, take a look at the hint for errors _after_ GitHub redirects have happened
 </details>
 
 <details markdown="1">
