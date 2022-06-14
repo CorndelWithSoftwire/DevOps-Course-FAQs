@@ -19,6 +19,15 @@ Please add the following Github users as collaborators:
 * Andrew Huang (`AndrewYHuang`)
 * `CorndelExcellence`
 * `CorndelWithSoftwireDevOps`
+
+If you're using GitLab instead, then please add the following and assign them "Maintainer" permissions:
+* Stephen Shaw (`aeone`)
+* Alex Jones (`Jonesey13`)
+* Hugh Emerson (`hugh-emerson`)
+* Jack Mead (`JackMead`)
+* Ben Ramchandani (`Ben.Ramchandani`)
+* Josh Powell (`JoshAdamPowell`)
+* Andrew Huang (`AndrewYHuang`)
 </details>
 
 ### I can't run the app
