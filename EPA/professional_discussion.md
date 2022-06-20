@@ -18,7 +18,7 @@ An additional breakdown of the KSBs, criteria, and possible questions is availab
 Below are some general questions that the assessor will often ask to open the assessment, and start to understand you and your role.
 
 * Tell me about your role
-* Talk me through a list of projects that you've worked on over the last couple of years
+* Talk me through a list of projects that you've worked on over the last couple of years. The assessor may ask questions about specific projects you mention, such as whether you were responsible for DevOps on them.
 * What are the main things that you have learned and applied from the apprenticeship?
 * What are the risks of CI/CD pipelines?
 
@@ -37,9 +37,10 @@ Distinction Criteria:
 * Assesses the difference between risk avoidance and risk acceptance and how these link to culture.
 
 Example questions:
-* What are some of the risks of DevOps? Can you do DevOps wrong?
+* What are some of the risks/disadvantages of DevOps? Can you do DevOps wrong?
 * What practices does your team have in place to prevent siloing of knowledge?
 * Who's in charge of DevOps structure in your organisation?
+* What makes DevOps a good fit for your company? How is DevOps shaping the culture?
 
 ### Data Ethics
 Pass Criteria:
@@ -48,6 +49,7 @@ Pass Criteria:
 Example Questions:
 * How does your team handle data in an ethical way?
 * What legislation is relevant to data processing within the UK?
+* How have you managed data securely on your project?
 
 ### Problem Solving
 Pass Criteria:
@@ -58,9 +60,9 @@ Distinction Criteria:
 * Explains the root cause analysis process. Gains consensus on an improvement plan, including accountabilities and the  implementation timeline.
 
 Example Questions:
-* Describe a problem you've solved recently, and how you approached it
-* How does your organisation learn from incidents in the past?
-* When have you facilitated an incident post-mortem?
+* Describe a problem you've solved recently, and how you approached it.
+* What problems has your team faced and what did you learn from them?
+* When have you facilitated an incident post-mortem and what was the outcome?
 
 ### The Profession in Context
 Pass Criteria:
@@ -72,8 +74,9 @@ Pass Criteria:
 Example Questions:
 * Tell me about how your team is structured
 * How does your team work?
-* What are some of the key roles with regard to DevOps in your organisation?
+* What are some of the key roles with regard to DevOps in your organisation? Who manages infrastructure?
 * How do you handle conflicting priorities?
+* Which communication methods do you use and when? How do you communicate with clients?
 
 ### Tooling & Technology
 Pass Criteria:
@@ -86,6 +89,8 @@ Distinction Criteria:
 Example Questions:
 * How did you choose your CI/CD tool for your project?
 * Tell me about a tool that you use, and what alternatives you've considered
+* Does the company have plans to move to cloud? Why? Public or private cloud? 
+* What steps go into your CI/CD pipeline? How have you set up or improved pipelines? (This may sound unrelated, but the assessor could ask specific questions around your CI/CD pipelines)
 
 ### Continuous Learning & Development
 Pass Criteria:
@@ -101,6 +106,7 @@ Example Questions:
 * What other certificates or qualifications would benefit you?
 * How do you balance time between learning and work priorities?
 * How has your learning benefited you and your team?
+* Tell me about one thing that you learned on the project?
 
 ### Peer review
 Pass Criteria:
@@ -110,6 +116,7 @@ Pass Criteria:
 Example Questions:
 * Do you ever pair program? Why/why not?
 * Do you give or receive code reviews?
+* What is the most important thing about code quality?
 
 ### Communicating and Knowledge Sharing
 Pass Criteria:
