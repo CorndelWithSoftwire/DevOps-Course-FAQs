@@ -167,3 +167,14 @@ If you're having issues with that, it's worth checking:
 * If the route's hit but the value doesn't seem to be there, have you got a naming mismatch? E.g. if you print or inspect the `request.form` value - does it have anything in it?
   * Note that you'll need to specify the [input's name attribute](https://www.w3schools.com/tags/att_input_name.asp)
 </details>
+
+### The above haven't helped?
+
+
+<details markdown="1">
+<summary markdown="1">
+Where else can I look?
+</summary>
+
+[This linked video](https://nextcloud.softwire.com/index.php/s/xDNY7TDe4wxMg9s) contains a walk-through for the first project exercise including set up, so might be able to help you with any questions not covered by the above. Don't forget to also reach out to the trainers via Slack, Teams, Email or by booking a support call if you're seeing issues and we'll be more than happy to help!
+</details>
