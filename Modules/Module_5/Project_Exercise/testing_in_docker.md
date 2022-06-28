@@ -88,6 +88,11 @@ On some machines, you may find that pytest is unable to use the load_dotenv func
         print('Failed to load dotenv')
 ```
 
+Alternatively, if you see an error suggesting that Python is trying to load your `.env.test` file from a path matching your host machine (for example, `C:\DevOps\DevOps-Course-Starter\.env.test` or anything with your username in) this might suggest that some cached information from your host has been transferred inside your container. Ensure you have a `.dockerignore` file with the following entries to avoid that, and rebuild your image:
+```
+**/__pycache__
+**/.pytest_cache
+```
 </details>
 
 ## Part 4: Selenium in Docker
