@@ -30,11 +30,10 @@ Modules:
 
 Tools:
 * [Aptem](Tools/aptem.md)
-* [Gitlab](Tools/gitlab.md)
+* [GitLab](Tools/gitlab.md)
 * [Gitpod](Tools/gitpod.md)
 * [Poetry](Tools/poetry.md)
 * [Python](Tools/python.md)
-* [Travis](Tools/travis.md)
 * [VSCode](Tools/VSCode.md)
 * [WebEx Training](Tools/webex.md)
 
