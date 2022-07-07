@@ -2,6 +2,30 @@
 
 <details markdown="1">
 <summary markdown="1">
+How do I know the "status" of an item from Trello? 
+</summary>
+
+Each card belongs to a "list". Trello boards are created with the following lists by default: 'To Do', 'Doing', 'Done'.
+
+</details>
+
+<details markdown="1">
+<summary markdown="1">
+I'm having trouble getting an API call to work or parsing the response
+</summary>
+
+You have a few options for investigation (other than trial and error):
+
+* The crudest approach is to add in `print` statements to your app to see what data it is sending/receiving. 
+* A fancier version of print statements would be [adding logging](https://www.sentinelone.com/blog/getting-started-quickly-with-flask-logging/)
+* To investigate without modifying any code, and without knowing what to look for ahead of time, try **debugging** your app. There are instructions on our [VS Code page](https://corndelwithsoftwire.github.io/DevOps-Course-FAQs/Tools/VSCode.html)
+
+You should check the request you are sending looks correct and that you can find the data you expect in `response.json()`.
+
+</details>
+
+<details markdown="1">
+<summary markdown="1">
 How can I get all of my cards with a single request to Trello?
 </summary>
 
