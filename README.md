@@ -7,25 +7,27 @@ This documentation is living - it will need to grow as we and you learn new thin
 ## Contents
 
 Modules:
-* Module 1
+* Module 1 - General Purpose Coding 1
   * [Project Exercise hints](Modules/Module_1/Project_Exercise/hints.md)
-* Module 2
+* Module 2 - General Purpose Coding 2
   * [Project Exercise hints](Modules/Module_2/Project_Exercise/hints.md)
-* Module 3
+* Module 3 - Automated Testing
   * [Project Exercise hints](Modules/Module_3/Project_Exercise/hints.md)
   * [Project Exercise code samples](Modules/Module_3/Project_Exercise/code_samples.md)
-* Module 4
+* Module 4 - Command Line Tasks
   * [Project Exercise hints](Modules/Module_4/Project_Exercise/hints.md)
-* Module 5
+* Module 5 - Immutable Infrastructure
   * [Project Exercise hints](Modules/Module_5/Project_Exercise/hints.md)
   * [Testing in Docker](Modules/Module_5/Project_Exercise/testing_in_docker.md)
-* Module 8
+* Module 8 - Continuous Delivery
   * [Project Exercise hints](Modules/Module_8/Project_Exercise/hints.md)
-* Module 9
-  * [Project Exercise hints](Modules/Module_9/Project_Exercise/hints.md)
-* Module 11
-  * [Project Exercise hints](Modules/Module_11/Project_Exercise/hints.md)
-* Module 12
+* Module 9 - Tooling & Cloud Infrastructure
+  * [Project Exercise hints](Modules/Module_09_Cloud/Project_Exercise/hints.md)
+* Module 10 - Data & Security 1
+  * [Project Exercise hints](Modules/Module_10_Databases/Project_Exercise/hints.md)
+* Module 11 - Data & Security 2
+  * [Project Exercise hints](Modules/Module_11_Security/Project_Exercise/hints.md)
+* Module 12 - Cloud Infrastructure as Code
   * [Project Exercise code samples](Modules/Module_12/Project_Exercise/code_samples.md)
 
 Tools:
