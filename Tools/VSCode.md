@@ -52,13 +52,22 @@ There are some further features of the debugger, but this is enough to start deb
 How do I run my Flask app "in debug mode"?
 </summary>
 
-* Open up your app.py file
+If your `app.py` file contains the following code, you should be able to run it in debug mode with the button in the top right as described above. Execution will also pause at breakpoints set in other files
+
+```python
+if __name__ == '__main__':
+    app.run()
+```
+
+Alternatively, if you don't want to include that code, or if you don't want to open app.py each time, you can add a debug "configuration" to your VS Code project: 
+
+* Open up any Python file
 * Select "Run and Debug" from the Activity Bar, i.e click on the play button with a bug from the list of icons on the left-hand side of VS Code
 * Click on `create a launch.json file`
   * If you already have a launch configuration for whatever reason, select `Add Configuration` via the dropdown at the top, and then select Python from the list of options that appears
 * Select `Flask` from the dropdown that appears at the top of the screen
 * Enter `todo_app/app.py` instead of just the default `app.py`
-* Click the play button from the top of the Run and Debug view to start it up. If you have multiple launch configurations, make sure that "Python: Flask" is selected.
+* Click the play button from the top of the "Run and Debug" panel to start it up. If you have multiple launch configurations, make sure that "Python: Flask" is selected.
 
 You should see your app start up. Try adding a breakpoint and then use your site as normal. Execution should pause at your breakpoint and the page won't load in the browser until you allow it to continue. 
 
