@@ -37,9 +37,9 @@ The six buttons from left to right are:
 * "Restart"
 * "Stop"
 
-Those controls let you watch how the code executes. Try it out with your file to get a feel for it. But you can do more!
-* Hover your mouse over variables to check their values, or look them up in the list in the top right  
-* Use the "Debug Console" tab at the bottom of the screen to execute any code you want. You can even modify a variable and then watch how the code executes in that scenario.
+Those controls let you watch how the code executes. Other IDEs will have the same set of controls. Try it out with your file to get a feel for it. But you can do more!
+* Hover your mouse over variables to check their values, or look them up in the list in the top left  
+* Use the "Debug Console" tab at the bottom of the screen as an interactive Python terminal to execute any code you want. You can even modify a variable and then watch how the code executes in that scenario.
  
 So in the example above, you could run `foo = 30` in the Debug Console, see the value change and then click "Step Over" and watch the debugger move to the `else` block.
 
