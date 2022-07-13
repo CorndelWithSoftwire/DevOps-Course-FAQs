@@ -100,7 +100,7 @@ Alternatively, if you see an error suggesting that Python is trying to load your
 If you have selenium end-to-end tests, you can run those in your Docker container too, but you'll need a supported webdriver and browser. You can have a go at this yourself, but it can be a little fiddly. To help, here's a Dockerfile snippet that installs Firefox and geckodriver.
 
 ```dockerfile
-ENV GECKODRIVER_VER v0.29.1
+ENV GECKODRIVER_VER v0.31.0
  
 # Install the long-term support version of Firefox (and curl if you don't have it already)
 RUN apt-get update && apt-get install -y firefox-esr curl
