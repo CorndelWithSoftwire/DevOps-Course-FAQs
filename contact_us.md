@@ -15,5 +15,5 @@ Do not hesitate to reach out if you have any questions/concerns. You can reach u
 * <https://calendly.com/alexander-jones-2/devops-1-to-1>
 * <https://calendly.com/ben-ramchandani/devops-1-to-1>
 * <https://calendly.com/josh-powell-1/support-call>
-* <https://calendly.com/andrew-y-huang/devops-1-to-1>
+* <https://calendly.com/andrew-y-huang/one-to-one-call>
 
