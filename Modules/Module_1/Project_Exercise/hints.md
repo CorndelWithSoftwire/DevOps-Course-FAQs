@@ -56,6 +56,10 @@ If the file is present, then it's probably just missing from your PATH environme
 * On Windows, [see this guide for adding a folder to your PATH](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
 * On Mac, [see this guide for adding a folder to your PATH](https://wpbeaches.com/how-to-add-to-the-shell-path-in-macos-using-terminal/)
 
+If the poetry folder is in your PATH and it is still not being picked up in a VSCode terminal (but works in standalone terminal) then should you try:
+1. Restarting VSCode (to reload the PATH variable)
+1. Creating a new terminal in VSCode (sometimes VSCode likes to keep old terminal sessions after a restart)
+
 </details>
 
 <details markdown="1">
