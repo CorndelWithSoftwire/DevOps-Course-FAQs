@@ -26,6 +26,7 @@ If you're using GitLab instead, then please add the following and assign them "M
 * Ben Ramchandani (`Ben.Ramchandani`)
 * Josh Powell (`JoshAdamPowell`)
 * Andrew Huang (`AndrewYHuang`)
+* `CorndelWithSoftwireDevOps`
 </details>
 
 ### I can't run the app
