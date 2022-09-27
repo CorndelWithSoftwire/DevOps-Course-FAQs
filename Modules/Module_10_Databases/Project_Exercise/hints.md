@@ -1,4 +1,4 @@
-# Module 9 Project Exercise Hints
+# Module 10 Project Exercise Hints
 
 Are you seeing any of the below issues?
 
