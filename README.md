@@ -21,6 +21,8 @@ Modules:
 * Module 5 - Immutable Infrastructure
   * [Project Exercise hints](Modules/Module_5/Project_Exercise/hints.md)
   * [Testing in Docker](Modules/Module_5/Project_Exercise/testing_in_docker.md)
+* Module 7 - Continuous Delivery
+  * [Project Exercise hints](Modules/Module_8/Project_Exercise/hints.md)
 * Module 8 - Continuous Delivery
   * [Project Exercise hints](Modules/Module_8/Project_Exercise/hints.md)
 * Module 9 - Tooling & Cloud Infrastructure
