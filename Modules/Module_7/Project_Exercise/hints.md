@@ -27,6 +27,6 @@ Scheduled workflows only get triggered on the default branch (`main`), so you'll
 
 Also worth noting they run on UTC time, so your cron expression might not execute when you expected.
 
-Finally, GitHub doesn't always run scheduled jobs exatly on time for non-paid customers if GitHub actions is busy, so don't be surprised if it runs a few minutes late.
+Finally, GitHub doesn't always run scheduled jobs exactly on time for non-paid customers if GitHub actions is busy, so don't be surprised if it runs a few minutes late.
 
 </details>
