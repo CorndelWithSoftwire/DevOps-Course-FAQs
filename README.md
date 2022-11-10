@@ -42,6 +42,7 @@ Tools:
 * [Python](Tools/python.md)
 * [VSCode](Tools/VSCode.md)
 * [WebEx Training](Tools/webex.md)
+* [Azure](Tools/azure)
 
 Example Repos:
 * [Azure SSO](Examples/Azure_SSO.md)
