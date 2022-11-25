@@ -23,10 +23,10 @@ Modules:
   * [Testing in Docker](Modules/Module_5/Project_Exercise/testing_in_docker.md)
 * Module 7 - Continuous Delivery
   * [Project Exercise hints](Modules/Module_7/Project_Exercise/hints.md)
-* Module 8 - Continuous Delivery
-  * [Project Exercise hints](Modules/Module_8/Project_Exercise/hints.md)
-* Module 9 - Tooling & Cloud Infrastructure
-  * [Project Exercise hints](Modules/Module_09_Cloud/Project_Exercise/hints.md)
+* Module 8 - Tooling & Cloud Infrastructure
+  * [Project Exercise hints](Modules/Module_08_Cloud/Project_Exercise/hints.md)
+* Module 9 - Continuous Delivery
+  * [Project Exercise hints](Modules/Module_09_CD/Project_Exercise/hints.md)
 * Module 10 - Data & Security 1
   * [Project Exercise hints](Modules/Module_10_Databases/Project_Exercise/hints.md)
 * Module 11 - Data & Security 2
