@@ -33,6 +33,8 @@ Modules:
   * [Project Exercise hints](Modules/Module_11_Security/Project_Exercise/hints.md)
 * Module 12 - Cloud Infrastructure as Code
   * [Project Exercise code samples](Modules/Module_12/Project_Exercise/code_samples.md)
+* Module 14 - Advanced Immutable Infrastructure
+  * [Project Exercise hints](Modules/Module_14/hints.md)
 
 Tools:
 * [Aptem](Tools/aptem.md)
