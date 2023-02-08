@@ -8,6 +8,8 @@ This documentation is living - it will need to grow as we and you learn new thin
 
 ## Contents
 
+Note that you can access [the latest version of all the Project Exercises here.](https://project-exercises.devops.corndel.com)
+
 Modules:
 * Module 1 - General Purpose Coding 1
   * [Project Exercise hints](Modules/Module_1/Project_Exercise/hints.md)
