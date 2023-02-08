@@ -6,3 +6,4 @@ repository: CorndelWithSoftwire/DevOps-Course-FAQs
 plugins:
   - "jekyll-github-metadata"
 github: [metadata]
+baseurl: https://faq.devops.corndel.com
