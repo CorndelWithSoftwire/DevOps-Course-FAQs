@@ -1,0 +1,15 @@
+name: FAQs Check Local Docker Image Works
+on: [push, pull_request]
+
+jobs:
+  check-build:
+    name: Check Build Succeeds
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Spin up container
+      run: docker compose up --build --detach
+    - name: Check it's alive
+      run: curl --fail http://localhost:4000
+    - name: Tear down containers
+      run: docker compose down
