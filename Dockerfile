@@ -1,6 +1,6 @@
-FROM ubuntu
-
-RUN apt-get update && apt-get install ruby-full build-essential -y
+FROM ruby:2.7-alpine
+RUN apk update && apk add alpine-sdk
+RUN gem update --system
 RUN gem install jekyll bundler
 WORKDIR /srv/jekyll
 COPY Gemfile Gemfile.lock ./
