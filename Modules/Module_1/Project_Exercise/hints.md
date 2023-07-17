@@ -66,7 +66,7 @@ If the poetry folder is in your PATH and it is still not being picked up in a VS
 Issues with VSCode?
 </summary>
 
-See [our VSCode docs](/Tools/VSCode.md) for more information regarding setting it up generally, or [watch our video](https://nextcloud.softwire.com/index.php/s/xDNY7TDe4wxMg9s) for more advice on setting up VSCode explicitly for the project exercise project.
+See [our VSCode docs](../../../Tools/VSCode.md) for more information regarding setting it up generally, or [watch our video](https://nextcloud.softwire.com/index.php/s/xDNY7TDe4wxMg9s) for more advice on setting up VSCode explicitly for the project exercise project.
 </details>
 
 ### I can't get the index page to show items?

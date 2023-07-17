@@ -13,5 +13,5 @@ It's common to forget, you'll need to set up a new OAuth app for the Azure appli
 
 If it is, then it sounds like a genuine error; checking that you've set the right environment variables is usually a good starting point, otherwise look at the hints for debugging a broken deployed application.
 
-If your App Service still isn't working take a look at the [hints for Module 9](/Modules/Module_09_Cloud/Project_Exercise/hints.md) too.
+If your App Service still isn't working take a look at the [hints for the Cloud Exercise](../../Module_08_Cloud/Project_Exercise/hints.md) too.
 </details>
