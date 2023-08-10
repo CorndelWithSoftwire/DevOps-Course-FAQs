@@ -100,7 +100,7 @@ Alternatively, if you see an error suggesting that Python is trying to load your
 If you have selenium end-to-end tests, you can run those in your Docker container too, but you'll need a supported webdriver and browser. You can have a go at this yourself, but it can be a little fiddly. To help, here's a Dockerfile snippet that installs Firefox and geckodriver.
 
 ```dockerfile
-ENV GECKODRIVER_VER v0.31.0
+ENV GECKODRIVER_VER v0.33.0
  
 # Install the long-term support version of Firefox (and curl if you don't have it already)
 RUN apt-get update && apt-get install -y firefox-esr curl
@@ -137,14 +137,7 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
   && rm /etc/apt/sources.list.d/google-chrome.list \
   && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 
-# Install Chrome driver that is compatible with the installed version of Chrome
-RUN CHROME_MAJOR_VERSION=$(google-chrome --version | sed -E "s/.* ([0-9]+)(\.[0-9]+){3}.*/\1/") \
-  && CHROME_DRIVER_VERSION=$(wget --no-verbose -O - "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_MAJOR_VERSION}") \
-  && echo "Using chromedriver version: "$CHROME_DRIVER_VERSION \
-  && wget --no-verbose -O /tmp/chromedriver_linux64.zip https://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip \
-  && unzip /tmp/chromedriver_linux64.zip -d /usr/bin \
-  && rm /tmp/chromedriver_linux64.zip \
-  && chmod 755 /usr/bin/chromedriver
+# No need to install Chromedriver, as long as Selenium is >= v4.11
 ```
 
 And here are the options you need in your Python code:
