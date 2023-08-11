@@ -97,15 +97,19 @@ Alternatively, if you see an error suggesting that Python is trying to load your
 
 ## Part 4: Selenium in Docker
 
-If you have selenium end-to-end tests, you can run those in your Docker container too, but you'll need a supported webdriver and browser. You can have a go at this yourself, but it can be a little fiddly. To help, here's a Dockerfile snippet that installs Firefox and geckodriver.
+If you have selenium end-to-end tests, you can run those in your Docker container too, but you'll need a supported webdriver and browser. Selenium can install the webdriver itself as long as the browser is installed.
 
 ```dockerfile
-ENV GECKODRIVER_VER v0.33.0
  
 # Install the long-term support version of Firefox (and curl if you don't have it already)
 RUN apt-get update && apt-get install -y firefox-esr curl
-  
+```
+
+If Selenium reports issues installing Geckodriver, below's a Dockerfile snippet that installs that and geckodriver.
+```dockerfile
 # Download geckodriver and put it in the usr/bin folder
+# You _should_ find that these steps are unnecessary
+ENV GECKODRIVER_VER v0.33.0
 RUN curl -sSLO https://github.com/mozilla/geckodriver/releases/download/${GECKODRIVER_VER}/geckodriver-${GECKODRIVER_VER}-linux64.tar.gz \
    && tar zxf geckodriver-*.tar.gz \
    && mv geckodriver /usr/bin/ \
@@ -136,8 +140,19 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
   && apt-get -qqy install google-chrome-stable \
   && rm /etc/apt/sources.list.d/google-chrome.list \
   && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
+```
 
-# No need to install Chromedriver, as long as Selenium is >= v4.11
+Similar to Firefox, _if_ Selenium is failing to install chromedriver when you run the tests, then you can add the below to your Dockerfile to do that directly
+```Dockerfile
+RUN CHROME_MAJOR_VERSION=$(google-chrome --version | sed -E "s/.* ([0-9]+)(\.[0-9]+){3}.*/\1/") \
+  && CHROME_VERSIONS_JSON=$(wget --no-verbose -O - "https://googlechromelabs.github.io/chrome-for-testing/latest-versions-per-milestone-with-downloads.json") \
+  && CHROME_DRIVER_VERSION=$(echo $CHROME_VERSIONS_JSON | jq -r ".milestones.\"${CHROME_MAJOR_VERSION}\".version") \
+  && echo "Using chromedriver version: "$CHROME_DRIVER_VERSION \
+  && wget --no-verbose -O /tmp/chromedriver_linux64.ziphttps://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/${CHROME_DRIVER_VERSION}/linux64/chromedriver-linux64.zip \
+  && unzip /tmp/chromedriver_linux64.zip -d /usr/bin \
+  && mv /usr/bin/chromedriver-linux64/* /usr/bin \
+  && rm -r /tmp/chromedriver_linux64.zip /usr/bin/chromedriver-linux64/ \
+  && chmod 755 /usr/bin/chromedriver
 ```
 
 And here are the options you need in your Python code:
